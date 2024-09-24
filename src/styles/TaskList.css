@@ -1,0 +1,38 @@
+.columns-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .column {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .task-list {
+    min-height: 100px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .task-item {
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #e9ecef;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+  .task-item.dragging {
+    background-color: #d4edda;
+  }
+  
+  .task-list.dragging-over {
+    background-color: #f1f3f5;
+  }
+  
